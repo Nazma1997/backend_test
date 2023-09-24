@@ -1,14 +1,9 @@
-const mongoose = require('mongoose');
 const fs = require('fs'); // To read the JSON file
 const router = require('express').Router();
 const Product = require('../models/product'); 
 const Order = require('../models/order')
 
 
-mongoose.connect('mongodb://localhost:27017/test_project', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
 
 
 
